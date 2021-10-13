@@ -1,0 +1,35 @@
+@media screen and (max-width: 807px) {
+    nav ul li{
+        display: none;
+    }
+    .songItemContainer{
+        width: 100vw;
+        margin: auto;
+    }
+    .songlist h1{
+        font-size: 20px;
+        margin: auto;
+    }
+    .logo{
+        margin: auto;
+    }
+    #songMainTitle{
+        margin-top: -110px;
+        margin-left: 59px;
+        font-size: 27px;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    .songItemContainer{
+        width: 130vw;
+        margin: auto;
+    }
+    #songMainTitle{
+        margin-top: -110px;
+        margin-left: -6px;
+        font-size: 27px;
+
+    }
+}
